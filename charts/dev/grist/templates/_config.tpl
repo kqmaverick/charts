@@ -6,7 +6,7 @@ data:
   {{/* Dependencies */}}
   TYPEORM_TYPE: postgres
   TYPEORM_PORT: "5432"
-  TYPEORM_HOST: {{ printf "%v-%v" .Release.Name "postgresql" }}
+  TYPEORM_HOST: {{ $.Values.cnpg.main.creds.host }}
   TYPEORM_DATABASE: {{ .Values.cnpg.main.database }}
   TYPEORM_USERNAME: {{ .Values.cnpg.main.user }}
   {{/* Ports */}}

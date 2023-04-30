@@ -34,7 +34,7 @@ workload:
             FF_SYNCSERVER_SQLURI:
               secretKeyRef:
                 name: cnpg-main-urls
-                key: url
+                key: std
             FF_SYNCSERVER_SECRET: "changeme"
 
 service:

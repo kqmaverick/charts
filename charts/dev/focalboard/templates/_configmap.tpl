@@ -11,7 +11,7 @@ data:
       "serverRoot": "{{ .Values.focalboard.serverRoot }}",
       "port": {{ .Values.service.main.ports.main.port }},
       "dbtype": "postgres",
-      "dbconfig": "{{ printf "postgresql://%v:%v@%v-postgresql:5432/%v?sslmode=disable" $pgUser $pgPass .Release.Name $pgDB }}",
+      "dbconfig": "{{ $.Values.cnpg.main.creds.nossl }}",
       "postgres_dbconfig": "dbname=$pgDB sslmode=disable",
       "useSSL": false,
       "webpath": "./pack",

@@ -14,14 +14,14 @@ service:
   main:
     ports:
       main:
-        port: 10260
+        port: 5800
         targetPort: 5800
   vnc:
     enabled: true
     ports:
       vnc:
         enabled: true
-        port: 10261
+        port: 5900
         targetPort: 5900
 
 dupeguru:
