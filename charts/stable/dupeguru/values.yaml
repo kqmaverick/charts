@@ -1,6 +1,6 @@
 image:
   repository: tccr.io/truecharts/dupeguru
-  tag: 23.01.1@sha256:18646a36f34c795bfafe1b1b162c2dc6ead19e71014aabf70b61095d098638dd
+  tag: 23.03.1@sha256:d3a529039fb79c1ee33398ca77278d754488b0e6b1ab5598c415982ef44e46c4
   pullPolicy: IfNotPresent
 
 securityContext:
