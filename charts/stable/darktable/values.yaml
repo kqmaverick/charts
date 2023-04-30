@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/darktable
   pullPolicy: IfNotPresent
-  tag: 3.8.1@sha256:3d47d9bf9099e76a172b375934e005a5f47e8dd7e57c86843763c867cf342963
+  tag: 4.0.1@sha256:af4e714a464a3eae5cea855f9947e0fc363a215a30e5ef3ef0c0cd5edbe9bcc4
 
 securityContext:
   runAsNonRoot: false
