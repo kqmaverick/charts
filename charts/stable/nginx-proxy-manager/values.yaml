@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/nginx-proxy-manager
   pullPolicy: IfNotPresent
-  tag: 2.9.22@sha256:00342a6a23f2571a6e8da0c41c061b2266796e24600e3593dad693fc2dfa76c2
+  tag: 2.10.2@sha256:f64d7180e64c26c73deb0440672d24abc788e74f365ddf656bd5d8201aa2fe76
 service:
   main:
     ports:
