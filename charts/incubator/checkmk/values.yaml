@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/check-mk-raw
   pullPolicy: IfNotPresent
-  tag: v2.1.0@sha256:1465f7c4c273a5d1f0fd8386790cd20be63c0422d65af48281369ab4793d4e09
+  tag: v2.1.0@sha256:35c62938fcd45e48e4ab6058b2d8fc2fb494095e195a8d898d201a515cc0ac30
 
 securityContext:
   readOnlyRootFilesystem: false
