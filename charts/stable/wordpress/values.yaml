@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/wordpress
   pullPolicy: IfNotPresent
-  tag: 6.1.1@sha256:89afb6a55458c30deb8f4a65839734afbdf09b59141ccf2319dd40b807223346
+  tag: 6.2.0@sha256:b3e805a98597d1478ecd89bc2fd356ee47cf0aa609a1ae565813c8de14e9d5c3
 
 securityContext:
   readOnlyRootFilesystem: false
