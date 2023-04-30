@@ -1,6 +1,6 @@
 image:
   repository: tccr.io/truecharts/mkvcleaver
-  tag: v1.3.0@sha256:363252799dfa5a7dfbafc260370b34c81ab79ba6f2ec923454bdc4db6a7a835b
+  tag: 23.03.1@sha256:0cec4b550459ac7b36bbdefbf842c7b5b8f01f0f8678c90d614bad6985b49798
   pullPolicy: IfNotPresent
 service:
   main:
